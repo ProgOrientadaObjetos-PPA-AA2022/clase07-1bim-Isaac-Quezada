@@ -14,9 +14,9 @@ public class Ejecutor {
         // nombre del archivo
         String nombreArchivo = "profesores.data";
         
-        Profesor profesor1 = new Profesor("Tara Hernandez", "contratado");
-        Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
-        Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
+        Profesor profesor1 = new Profesor("Austin Power", "contratado");
+        Profesor profesor2 = new Profesor("Fredy Mercury", "nombramiento");
+        Profesor profesor3 = new Profesor("Cristian Castro", "nombramiento");
 
         EscrituraArchivoSecuencial archivo = 
                 new EscrituraArchivoSecuencial(nombreArchivo);

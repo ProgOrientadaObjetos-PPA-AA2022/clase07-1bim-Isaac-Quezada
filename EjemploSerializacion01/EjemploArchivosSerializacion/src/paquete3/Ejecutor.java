@@ -29,8 +29,7 @@ public class Ejecutor {
 
         Calificacion[] lista = {c1, c2, c3};
 
-        EscrituraArchivoSecuencial archivo = new
-         EscrituraArchivoSecuencial(nombreArchivo);
+        EscrituraArchivoSecuencial archivo = new EscrituraArchivoSecuencial(nombreArchivo);
 
         for (int i = 0; i < lista.length; i++) {
             // establecer el valor del atributo registro
